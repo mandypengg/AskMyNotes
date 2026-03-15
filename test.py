@@ -1,7 +1,8 @@
-import langchain
-import chromadb
-import streamlit
-import groq
-from sentence_transformers import SentenceTransformer
+from rag import answer_question
 
-print("All libraries imported successfully!")
+answer = answer_question(
+    "In what line is the lyric 'Now I'll just see you when I'm on business with everyone' on?",
+    pdf_path="sweetboy-lyrics.pdf"
+)
+
+print(answer)
