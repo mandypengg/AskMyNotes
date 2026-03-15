@@ -2,11 +2,6 @@
 
 A local RAG (Retrieval-Augmented Generation) chatbot that lets you upload documents and ask questions about them. Built with LangChain, ChromaDB, HuggingFace embeddings, and Groq's free LLaMA API.
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.x-red)
-![LangChain](https://img.shields.io/badge/LangChain-latest-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
 ---
 
 ## 🧠 How It Works
