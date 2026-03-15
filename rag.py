@@ -75,7 +75,7 @@ Answer:"""
 
 def answer_question(question, pdf_path=None):
     if pdf_path:
-        chunks = load_and_chunk_pdf(pdf_path)
+        chunks = load_and_chunk(pdf_path)
         vectorstore = build_vectorstore(chunks)
     else:
         vectorstore = load_vectorstore()
