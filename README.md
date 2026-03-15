@@ -187,7 +187,3 @@ You can tweak the following settings in `rag.py` to adjust performance:
 - Linux: `sudo apt install tesseract-ocr`
 
 ---
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
