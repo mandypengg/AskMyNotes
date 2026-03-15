@@ -4,7 +4,7 @@ A local RAG (Retrieval-Augmented Generation) chatbot that lets you upload docume
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 AskMyNotes uses a RAG (Retrieval-Augmented Generation) pipeline under the hood:
 
@@ -21,7 +21,7 @@ Embeddings run **entirely locally** on your machine via HuggingFace — no data 
 
 ---
 
-## ✨ Features
+## Features
 
 - 📄 **Multi-format support** — Upload PDF, TXT, MD, DOCX, CSV, HTML, JPG, PNG
 - 💬 **Chat interface** — Clean conversational UI with full message history
@@ -32,19 +32,17 @@ Embeddings run **entirely locally** on your machine via HuggingFace — no data 
 
 ---
 
-## 🛠️ Tech Stack
-
-| Component | Tool |
-|---|---|
-| Framework | [LangChain](https://langchain.com) |
-| Embeddings | [HuggingFace sentence-transformers](https://huggingface.co) (local) |
-| Vector Store | [ChromaDB](https://trychroma.com) (local) |
-| LLM | [LLaMA 3.3 via Groq API](https://groq.com) |
-| UI | [Streamlit](https://streamlit.io) |
+## Tech Stack
+- **Python**
+- **LangChain**
+- **HuggingFace sentence-transformers** (local)
+- **ChromaDB** (local)
+- **Llama 3.3 via Groq API**
+- **Streamlit** (UI)
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -114,7 +112,7 @@ Your browser will automatically open at `http://localhost:8501`.
 
 ---
 
-## 📖 Usage
+## Usage
 
 1. **Upload a document** using the sidebar on the left
 2. **Wait** for the "Ready!" confirmation (processing time depends on document size)
@@ -123,7 +121,7 @@ Your browser will automatically open at `http://localhost:8501`.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 rag-chatbot/
@@ -139,7 +137,7 @@ rag-chatbot/
 
 ---
 
-## ⚙️ Supported File Types
+## Supported File Types
 
 | Format | Extension |
 |---|---|
@@ -168,7 +166,7 @@ You can tweak the following settings in `rag.py` to adjust performance:
 
 ---
 
-## 🐛 Common Issues
+## Common Issues
 
 **`ModuleNotFoundError`** — Make sure your virtual environment is activated (`source venv/bin/activate`) before running.
 
