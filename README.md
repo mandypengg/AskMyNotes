@@ -23,12 +23,12 @@ Embeddings run **entirely locally** on your machine via HuggingFace — no data 
 
 ## Features
 
-- 📄 **Multi-format support** — Upload PDF, TXT, MD, DOCX, CSV, HTML, JPG, PNG
-- 💬 **Chat interface** — Clean conversational UI with full message history
-- 🔒 **Privacy-friendly** — Embeddings run locally, only query context hits the API
-- 🔄 **Swap documents** — Upload a new file mid-session without restarting
-- ⚡ **Fast responses** — Powered by Groq's ultra-fast LLaMA inference
-- 🆓 **Completely free** — Uses Groq's free tier and local HuggingFace embeddings
+- **Multi-format support** — Upload PDF, TXT, MD, DOCX, CSV, HTML, JPG, PNG
+- **Chat interface** — Clean conversational UI with full message history
+- **Privacy-friendly** — Embeddings run locally, only query context hits the API
+- **Swap documents** — Upload a new file mid-session without restarting
+- **Fast responses** — Powered by Groq's ultra-fast LLaMA inference
+- **Completely free** — Uses Groq's free tier and local HuggingFace embeddings
 
 ---
 
